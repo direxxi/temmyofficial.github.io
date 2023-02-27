@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 5000px;
+}
+.top{
+    height: 950px;
+    
+
+    
+}
+.header{
+    max-width: 100%
+}
+.img-header{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 950px;
+    font-size: 27px;
+    margin-left: 20px;
+    font-family: 'Vampiro One', cursive;;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+
+}
+.bars{
+    display: none;
+}
+nav ul a{
+    text-decoration: none;
+    margin-left: 60px;
+    color: white;
+    font-size:20px ;
+    font-family: 'Raleway', sans-serif;
+        
+}
+
+/* .bg{
+    background-color: lightblue;
+    padding: auto;
+    margin: auto;
+    border-radius: 10px;
+} */
+.create{
+    text-align: center;
+    position: relative;
+    bottom: 800px;
+}
+.creatives{
+    font-size: 54px;
+    font-family: 'League Spartan', sans-serif;
+        
+}
+.arrow{
+    position: relative;
+    top: 20px;
+}
+.top2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 4px;
+    height: 950px;
+    overflow: hidden;
+
+}
+.transform{
+    width: 472px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+     font-family: 'Dosis', sans-serif;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        
+
+}
+.lolo{
+    margin-top: 30px;
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+    
+}
+.egg{
+    width: 950px;
+    position: relative;
+    left: 50px;
+}
+.img-egg{
+    display: none;
+}
+h3{
+    margin-top: 50px;
+}
+.learn{
+    text-decoration: none;
+    background-color: lightyellow;
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder;
+    
+}
+h3 .learn:hover{
+    background-color: yellow;
+    border-radius: 10px;
+}
+.top3{
+    display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        bottom: 76.6px;
+        overflow: hidden;
+}
+.cup{
+ width: 950px;
+ position: relative;  
+ right: 60px;   
+}
+.img-cup{
+    display: none;
+}
+.out{
+    width: 600px;
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: 'Dosis', sans-serif;
+            font-family: 'League Spartan', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            
+}
+.loloo{
+margin-top: 30px;
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+    
+}
+.stand{
+    position: relative;
+    right: 90px;
+}
+.more{
+text-decoration: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder;
+}
+h3 .more:hover{
+    background-color: pink;
+        border-radius: 10px;
+}
+.top4{
+display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 84.5px;
+    height: 950px;
+    overflow: hidden;
+}
+
+
+.words{
+position: relative;
+bottom: 220px;
+}
+.graphic{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        
+}
+.olo{
+    width: 400px;
+    text-align: center;
+    position: relative;
+    left: 270px;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        
+}
+.word{
+    position: relative;
+        bottom: 220px;
+}
+.photo{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        
+}
+.olol{
+    width: 400px;
+        text-align: center;
+        position: relative;
+        left: 270px;
+        margin-top: 20px;
+        font-family: 'Dosis', sans-serif;
+            font-family: 'League Spartan', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            
+}
+.toto{
+    width: 950px;
+    position: relative;
+    right: 21px;
+}
+.img-toto{
+    display: none;
+}
+.ora{
+    width:950px;
+    position: relative;
+    right: 21px;
+}
+.img-ora{
+    display: none;
+}
+.top5{
+    position: relative;
+    bottom: 238px;
+    background-color: antiquewhite;
+    height: 600px;
+    overflow: hidden;
+}
+
+    
+.client{
+    text-align: center;
+    position: relative;
+    top: 70px;
+    
+    
+    
+}
+.all{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    position: relative;
+    top: 200px;
+}
+.emz{
+    border-radius: 50%;
+    width: 70px;
+    position: relative;
+    left: 170px;
+
+}
+.trust{
+    width: 420px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Dosis', sans-serif;
+        
+}
+.name{
+    text-align: center;
+    margin-top: 50px;
+        font-family: 'Vampiro One', cursive;
+}
+.role{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Dosis', sans-serif;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        
+}
+.top6{
+    width: 100%;
+display: flex;
+position: relative;
+bottom: 237px;
+overflow: hidden;
+height: 500px;
+}
+.pictures{
+    width: 464px;
+}
+.sun{
+    text-align: center;
+    position: relative;
+    top: 170px;
+    font-size:27px ;
+    font-weight: bolder;
+    font-family: 'Dosis', sans-serif;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Vampiro One', cursive;
+}
+.top7{
+    background-color: #68b1a2;
+    position: relative;
+    bottom: 236.2px;
+    height: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+.abort{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.abb{
+    display: flex;
+    list-style: none;
+    
+}
+.abz{
+ text-decoration: none;
+ margin-left: 50px;
+position: relative;
+top: 240px;
+font-size: 18px;
+color: #25564b;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+}
+.icon{
+    color: #25564b;
+    font-size: 30px;
+    margin-left: 30px;
+}
+@media (max-width:640px){
+    .top{
+       height:0px; 
+    }
+.header{
+    display: none;
+}
+.img-header{
+    display: block;
+    width: 100%;
+}
+nav{
+    position: relative;
+    bottom:850px;
+}
+nav ul{
+    display: none;
+}
+.bars{
+    display: block;
+    position: relative;
+    right: 30px;
+}
+.creatives{
+    position: relative;
+    top:190px;
+}
+.arrow{
+    position: relative;
+    top: 200px;
+}
+.top2{
+    
+}
+.egg{
+    display: none;
+}
+.img-egg{
+    width: 100%;
+    display: block;
+    position: relative;
+    right: 250px;
+    bottom: 260px;
+    margin-top: 0;
+}
+.tran{
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+.learn{
+    margin-left: 190px;
+}
+.cup{
+    display: none;
+}
+.img-cup{
+    display: block;
+    width: 100%;
+    position: relative;
+    left: 300px; ;
+    bottom: 300px;
+}
+.lol{
+    position: relative;
+    left: 30px;
+}
+.top3{
+    height: 950px;
+}
+.stand{
+    position: relative;
+    top:200px ;
+    right: 250px;
+}
+.out{
+    font-size: 30px;
+    margin-left: 20px;
+}.loloo{
+    margin-left: 30px;
+}
+.toto{
+    display: none;
+}
+.img-toto{
+    display: block;
+    width: 640px;
+    height: 640px;
+    position: relative;
+    left: 320px;
+    bottom: 600px;
+}
+.words{
+    position: relative;
+    bottom: 900px;
+}
+.graphic{
+    position: relative;
+    left: 300px;
+}
+.olo{
+    position: relative;
+   left:430px;
+}
+.ora {
+    display: none;
+
+}
+.img-ora{
+    display: block;
+    width: 640px;
+    height: 640px;
+    position: relative;
+    top: 40px;
+    right: 310px;
+    
+}
+.word{
+    position: relative;
+    right: 450px;
+}
+.photo{
+    position: relative;
+    bottom: 20px;
+    left: 140px;
+}
+.olol{
+    position: relative;
+    bottom: 20px;
+}
+.lol{
+    margin-left: 150px;
+}
+.top4{
+height: 1950px;
+}
+.top5{
+    position: relative;
+    bottom: 780px;
+    height: 1250px;
+}
+.client{
+
+}
+.all{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.emz{
+    margin-left: 100px;
+}
+.trust{
+    position: relative;
+    left: 100px;
+}
+.tom{
+    margin-top: 70px;
+}
+.jen{
+    margin-top: 70px;
+}
+.name{
+    position: relative;
+    left: 30px;
+}
+.role{
+    position: relative;
+    left: 30px;
+}
+.top6{
+    position: relative;
+    bottom: 780px;
+    height: 500px;
+}
+.pic{
+    display: flex;
+    width: 320px;
+    height: 200px;
+}
+.pics{
+    display: flex;
+    width: 320px;
+    height: 200px;
+    position: relative;
+    top: 199px;
+    right: 640px;
+}
+.top7{
+    position: relative;
+    bottom: 881px;
+}
+
+
+
+}
